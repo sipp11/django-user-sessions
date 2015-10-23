@@ -9,3 +9,6 @@
 /.tox/
 
 /docs/_build/
+
+dist/
+build/

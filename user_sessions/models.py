@@ -25,6 +25,7 @@ class Session(models.Model):
     objects = SessionManager()
 
     class Meta:
+        app_label = 'user_sessions'
         verbose_name = _('session')
         verbose_name_plural = _('sessions')
 
